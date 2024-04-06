@@ -50,6 +50,7 @@ body{
 
 #navbar a:hover{
     color: gold;
+    text-decoration: underline;
 
 }
 
@@ -135,6 +136,40 @@ td{
     background-size: cover;
     background-repeat: no-repeat;
 
+}
+footer {
+    background-color:black;
+    color: white;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social ul li {
+    margin-bottom: 5px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.social ul li a:hover {
+    color: gold;
+    text-decoration: underline;
 }
 
 
