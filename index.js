@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded",()=> {
     });
 });
 
-// keydown event
+// keydown h event
 document.addEventListener("DOMContentLoaded", () => {
     document.addEventListener("keydown", (event) => {
         if (event.key === "h") {
@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+// keydown e event
 document.addEventListener("DOMContentLoaded", () => {
     document.addEventListener("keydown", (event) => {
         if (event.key === "e") {
