@@ -75,6 +75,66 @@ h2{
 
 h1{
     font-size: 40px;
+    text-align: center;
+}
+
+table{
+    border: thick solid black;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 20px;
+
+
+}
+
+td{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: gold;
+    text-align: center;
+    padding: 40px;
+}
+
+#burg{
+
+    margin-left: 15px;
+    border-radius: 15px;
+    background-image: url(./background.jpg);
+}
+
+#flg{
+    margin-left: 15px;
+    border-radius: 15px;
+    background-image: url(./chickenbg.jpg);
+}
+
+
+
+#sugar{
+    margin-left: 15px;
+    border-radius: 15px;
+    background-image: url(./dessertsbg.jpg);
+}
+
+#pizzaria{
+    margin-left: 15px;
+    border-radius: 15px;
+    background-image: url(./pizzabg.jpg);
+}
+
+#table-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-table {
+    flex-grow: 1;
+    margin: 10px;
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 
