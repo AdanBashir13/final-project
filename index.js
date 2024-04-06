@@ -10,3 +10,14 @@ document.addEventListener("DOMContentLoaded",()=> {
     });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "h") {
+            const navbar = document.getElementById("navbar");
+            const navbarPosition = navbar.getBoundingClientRect().top;
+            document.documentElement.scrollTo({
+                top: navbarPosition,
+            });
+        }
+    });
+});
